@@ -8,6 +8,7 @@ import tailwind  from "../asset/tailwind.png";
 import outsystems  from "../asset/OS.png";
 import mySQL  from "../asset/mysql.png";
 import postman  from "../asset/postman1.png";
+import git  from "../asset/git.png";
 
 
 const Skills = () => {
@@ -38,12 +39,14 @@ const Skills = () => {
             title: 'React',
             style: 'shadow-blue-600',
         },
+
         {
             id:5,
-            src: node,
-            title: 'Node JS',
-            style: 'shadow-green-500',
+            src: git,
+            title: 'Git/GitHub',
+            style: 'shadow-gray-400 ',
         },
+      
         {
             id:6,
             src: tailwind,
@@ -69,7 +72,12 @@ const Skills = () => {
             title: 'Postman',
             style: 'shadow-orange-700',
         },
-        
+        {
+            id:10,
+            src: node,
+            title: 'Node JS',
+            style: 'shadow-green-500',
+        },
         
 
 
