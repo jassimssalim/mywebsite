@@ -64,7 +64,7 @@ const Skills = () => {
             id:8,
             src: mySQL,
             title: 'MySQL',
-            style: 'shadow-orange-200',
+            style: 'shadow-orange-300',
         },
         {
             id:9,
@@ -76,7 +76,7 @@ const Skills = () => {
             id:10,
             src: node,
             title: 'Node JS',
-            style: 'shadow-green-500',
+            style: 'shadow-green-900',
         },
         
 
