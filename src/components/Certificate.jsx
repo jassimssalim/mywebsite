@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCalendarTimes } from 'react-icons/fa';
+
 import cert  from "../asset/associatewebdev.png";
 
 
@@ -13,6 +13,7 @@ const Skills = () => {
             title: 'Associate Web Developer',
             style: 'shadow-red-800',
         },
+        
         {
             id:2,
             src: cert,
