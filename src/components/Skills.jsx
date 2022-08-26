@@ -9,6 +9,7 @@ import outsystems  from "../asset/OS.png";
 import mySQL  from "../asset/mysql.png";
 import postman  from "../asset/postman1.png";
 import git  from "../asset/git.png";
+import github  from "../asset/github.png";
 
 
 const Skills = () => {
@@ -43,8 +44,8 @@ const Skills = () => {
         {
             id:5,
             src: git,
-            title: 'Git/GitHub',
-            style: 'shadow-gray-400 ',
+            title: 'Git',
+            style: 'shadow-pink-500 ',
         },
       
         {
@@ -76,7 +77,13 @@ const Skills = () => {
             id:10,
             src: node,
             title: 'Node JS',
-            style: 'shadow-green-900',
+            style: 'shadow-green-600',
+        },
+        {
+            id:11,
+            src: github,
+            title: 'Github ',
+            style: 'shadow-gray-400',
         },
         
 
@@ -90,11 +97,12 @@ const Skills = () => {
 
   return (
     <div name = "skills"  className = "bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"  >
-        <div className= " max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">   
-            <div className='
-            pb-8'> 
+        <div className= "  max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">   
+            <div className= " ">
+              
             
                  <p className=' mt-20 text-4xl font-bold inline-block border-b-4 border-gray-500 p-2'>Skills Summary</p>
+                 
                  <p className='py-6'>These are the technologies I've worked with. </p>
 
             </div>
@@ -106,7 +114,7 @@ const Skills = () => {
 
 
                             
-                <div key= {id} className={ "shadow-md hover:scale-105 duration-500 py-2 rounded-lg " + " " + style }> 
+                <div key= {id} className={ "shadow-md hover:scale-105 duration-500 py-2 rounded-lg " +  style }> 
                 <img src = {src} alt = " " className='w-20 mx-auto'/>
                 <p className='mt-4'>{title}</p>
             </div>
