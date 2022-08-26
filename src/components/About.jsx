@@ -18,14 +18,11 @@ function About() {
              <p className='text-xl text-justify'> Currently working as application developer in the bank as my first job, using Outsystems as the main 
              platform of the software, creating fast, realiable and secure applications as the Agile Metholodgy are the main core 
              of Software Development. </p>
-             <br/>
-             <p className='text-xl text-justify'> What I want to become in the next years of my development career is that I can make Web3 technologies 
-             and be one of the blockchain developer in my country.
-             
-             
-             
-               </p>
-              <></>
+        
+             <p className='text-xl text-justify'> A Web3 enthusiast developer where in I want to be part in a blockchain
+             community.
+              </p>
+              
         
         
         
