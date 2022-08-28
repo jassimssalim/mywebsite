@@ -19,9 +19,7 @@ function About() {
              platform of the software, creating fast, realiable and secure applications as the Agile Metholodgy are the main core 
              of Software Development. </p>
         
-             <p className='text-xl text-justify'> A Web3 enthusiast developer where in I want to be part in a blockchain
-             community.
-              </p>
+             
               
         
         
