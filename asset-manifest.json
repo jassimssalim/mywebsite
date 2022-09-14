@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mywebsite/static/css/main.cb1a5ee5.css",
+    "main.js": "/mywebsite/static/js/main.1f962432.js",
+    "static/media/mysql.png": "/mywebsite/static/media/mysql.60fe462b4dec8bbc0292.png",
+    "static/media/git.png": "/mywebsite/static/media/git.0983b7b8f96629e083f1.png",
+    "static/media/postman1.png": "/mywebsite/static/media/postman1.15502aeb600b343047b4.png",
+    "static/media/react.png": "/mywebsite/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/mywebsite/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/mywebsite/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/mywebsite/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/mywebsite/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/mywebsite/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/email.svg": "/mywebsite/static/media/email.05660f25bddf75cce2f5983f61201872.svg",
+    "static/media/Tabs.svg": "/mywebsite/static/media/Tabs.6101878f9a9782ca49c96209cfb23178.svg",
+    "index.html": "/mywebsite/index.html",
+    "main.cb1a5ee5.css.map": "/mywebsite/static/css/main.cb1a5ee5.css.map",
+    "main.1f962432.js.map": "/mywebsite/static/js/main.1f962432.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb1a5ee5.css",
+    "static/js/main.1f962432.js"
+  ]
+}
