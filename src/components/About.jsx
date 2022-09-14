@@ -15,7 +15,7 @@ function About() {
                 
             </p>
             <br/>
-             <p className='text-xl text-justify'> Currently working as application developer in the bank as my first job, using Outsystems as the main 
+             <p className='text-xl text-justify'> Currently working as an application developer in the bank as my first job, using Outsystems as the main 
              platform of the software, creating fast, realiable and secure applications as the Agile Metholodgy are the main core 
              of Software Development. </p>
         

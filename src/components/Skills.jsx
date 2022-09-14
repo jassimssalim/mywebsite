@@ -4,7 +4,7 @@ import css  from "../asset/css.png";
 import javascript  from "../asset/javascript.png";
 import reactImage  from "../asset/react.png";
 import node  from "../asset/node.png";
-import tailwind  from "../asset/tailwind.png";
+
 import outsystems  from "../asset/OS.png";
 import mySQL  from "../asset/mysql.png";
 import postman  from "../asset/postman1.png";
@@ -48,39 +48,34 @@ const Skills = () => {
             style: 'shadow-pink-500 ',
         },
       
+        
         {
             id:6,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-sky-400',
-        },
-        {
-            id:7,
             src: outsystems,
-            title: 'Outsystems',
+            title: 'OUTSYSTEMS',
             style: 'shadow-red-500',
         },
 
         {
-            id:8,
+            id:7,
             src: mySQL,
             title: 'MySQL',
             style: 'shadow-orange-300',
         },
         {
-            id:9,
+            id:8,
             src: postman,
             title: 'Postman',
             style: 'shadow-orange-700',
         },
         {
-            id:10,
+            id:9,
             src: node,
             title: 'Node JS',
             style: 'shadow-green-600',
         },
         {
-            id:11,
+            id:10,
             src: github,
             title: 'Github ',
             style: 'shadow-gray-400',
