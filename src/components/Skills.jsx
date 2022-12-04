@@ -4,12 +4,12 @@ import css  from "../asset/css.png";
 import javascript  from "../asset/javascript.png";
 import reactImage  from "../asset/react.png";
 import node  from "../asset/node.png";
-
 import outsystems  from "../asset/OS.png";
 import mySQL  from "../asset/mysql.png";
 import postman  from "../asset/postman1.png";
 import git  from "../asset/git.png";
 import github  from "../asset/github.png";
+import Figma  from "../asset/Figma.png";
 
 
 const Skills = () => {
@@ -80,6 +80,13 @@ const Skills = () => {
             title: 'Github ',
             style: 'shadow-gray-400',
         },
+        {
+            id:11,
+            src: Figma,
+            title: 'Figma ',
+            style: 'shadow-gray-400',
+        }
+        
         
 
 

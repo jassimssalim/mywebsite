@@ -1,12 +1,17 @@
 import React from 'react'
+import {useState} from "react"; 
 import contactEmail  from "../asset/email.svg";
 
 
 
 
 const Contact = () => {
-
   
+const initialValues = {name: " ", email: " ", textarea: " "};
+const [formValues, setformValues, ] = useState();
+const handleChange = (e) => {
+ console.log(e.target);
+}
 
 
   return (
@@ -24,10 +29,10 @@ const Contact = () => {
           </div>
           <div className=' flex justify-center items-center'>
           
-            <form  action = "https://getform.io/f/e012884f-c699-4629-96cb-9e73e392af38 " method = "POST"className='flex flex-col w-full h-full' >
-                <input type="text" name = "name " placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
+            <form   action = "https://getform.io/f/e012884f-c699-4629-96cb-9e73e392af38 " method = "POST"className='flex flex-col w-full h-full' >
+                <input id="nameVal" type="text" name = "name " placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' value = {formValues.name} onChange={handleChange} />
                 <input type="email" name = "email " placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
-                <textarea name="message"  rows="7" placeholder = "Enter your message" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
+                <textarea name="message"  rows="7" placeholder = "Enter your message" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  value = {formValues.textarea}></textarea>
                 <button className='text-white bg-gradient-to-b   from-cyan-400 to-blue-700 px-6 py-3 my-8  flex  justify-center items-enter mx-20 rounded-md hover:scale-110 duration-300'>Let's talk</button>
                
 
